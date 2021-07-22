@@ -12,7 +12,7 @@
     color: white;
     background-color: #E7A64E;
     text-shadow: black;
-    font-size: 20px;
+    font-size: 30px;
     word-spacing: 30px;
     padding-left: 20px;
     padding-top: 20px;
@@ -27,7 +27,7 @@
 /* Jumbotron  */
 .jumbotron {
     background-image: url(../images/head.png);
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
     height: calc(100vh - 25px);
     display: flex;
@@ -58,12 +58,12 @@
   .display-4{
       font-size: 50px;
       padding-top: 40px;
-      padding-bottom: 20px;
+      padding-bottom: 30px;
   }
 
   .lead{
       font-size: 24px;
-      padding-bottom: 20px;
+      padding-bottom: 40px;
   }
 
 .btn{
@@ -72,13 +72,14 @@
     font-size: 18px;
 }
 
+/* Project Nav bar  */
+
 .navbar-project {
     font-family: 'Josefin Sans', sans-serif; 
     font-weight: 800;
     background-color: none;
     font-size: 20px;
     padding-left: 20px;
-    padding-top: 20px;
   }
 
   .project-item{
@@ -86,3 +87,116 @@
       color: #E7A64E;
       padding-right: 50px;
   }
+
+  /* What they do */
+
+  .what{
+    font-family: 'Josefin Sans', sans-serif; 
+    color: #353737;
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 150px; 
+  }
+
+  .whatcopy{
+    font-family: 'Josefin Sans', sans-serif; 
+    color: #353737;
+    font-size: 24px;
+    font-weight: 650;
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 50px;
+  }
+
+    /* goal */
+
+    .goal{
+      font-family: 'Josefin Sans', sans-serif; 
+      color: #353737;
+      font-weight: 800;
+      font-size: 30px;
+      text-align: center;
+      padding-bottom: 50px;
+      padding-top: 150px; 
+    }
+  
+    .goalcopy{
+      font-family: 'Josefin Sans', sans-serif; 
+      font-weight: 650;
+      color: #353737;
+      font-size: 24px;
+      text-align: center;
+      padding-left: 200px;
+      padding-right: 200px;
+      padding-bottom: 50px;
+    }
+
+     /* process */
+
+     /* Cards */
+
+    .container-fluid content {
+      justify-content: center;
+      padding-left: 100px;
+      padding-right: 100px;
+      padding-bottom: 50px;
+    }
+
+    .row-process{
+      display: flex;
+      justify-content: space-evenly;
+      padding-left: 100px;
+      padding-right: 100px;
+      font-family: 'Josefin Sans', sans-serif; 
+      font-weight: 800;
+      padding-bottom: 200px;
+    }
+
+    .sectionHeading{
+      font-family: 'Josefin Sans', sans-serif; 
+      color: #353737;
+      font-size: 30px;
+      text-align: center;
+      padding-bottom: 50px;
+      padding-top: 150px;
+    }
+
+    .card-title{
+      color: #E7A64E;
+      font-size: 24px;
+      text-align: center;
+      padding-bottom: 20px;
+    }
+
+    ul{
+      text-align: center;
+      list-style-type: none;
+      font-size: 22px;
+      font-weight: 650;
+    }
+
+    /* role */
+
+    .role{
+      font-family: 'Josefin Sans', sans-serif; 
+      color: #353737;
+      font-weight: 800;
+      font-size: 30px;
+      text-align: center;
+      padding-bottom: 50px;
+      padding-top: 150px; 
+    }
+  
+    .rolecopy{
+      font-family: 'Josefin Sans', sans-serif; 
+      color: #353737;
+      font-size: 24px;
+      font-weight: 650;
+      text-align: center;
+      padding-left: 200px;
+      padding-right: 200px;
+      padding-bottom: 50px;
+    }
