@@ -328,3 +328,227 @@
       padding-bottom: 50px;
       padding-top: 50px;
     }
+
+     /* comp */
+
+     .comp{
+      font-family: 'Josefin Sans', sans-serif; 
+      color: #353737;
+      font-weight: 800;
+      font-size: 30px;
+      text-align: center;
+      padding-bottom: 50px;
+      padding-top: 150px; 
+      justify-content: center;
+    }
+  
+    .compcopy{
+      font-family: 'Josefin Sans', sans-serif; 
+      font-weight: 650;
+      color: #353737;
+      font-size: 24px;
+      text-align: center;
+      padding-left: 200px;
+      padding-right: 200px;
+      padding-bottom: 50px;
+      padding-top: 50px;
+    }
+
+ /* story */
+
+ .story{
+  font-family: 'Josefin Sans', sans-serif; 
+  color: #353737;
+  font-weight: 800;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 150px; 
+  justify-content: center;
+}
+
+.storycopy{
+  font-family: 'Josefin Sans', sans-serif; 
+  font-weight: 650;
+  color: #353737;
+  font-size: 24px;
+  text-align: center;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+ /* Usability Testing */
+
+.container-fluid-testing {
+  justify-content: center;
+  padding-bottom: 50px;
+  font-family: 'Josefin Sans', sans-serif; 
+  font-weight: 800;
+}
+
+.usetestcards{
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.testcopy{
+  font-family: 'Josefin Sans', sans-serif; 
+  font-weight: 650;
+  color: #353737;
+  font-size: 24px;
+  text-align: center;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.testHeading{
+  font-family: 'Josefin Sans', sans-serif; 
+  color: #353737;
+  font-weight: 800;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 150px; 
+  justify-content: center;
+}
+
+ /* usability results */
+
+     /* Cards */
+
+     .container-fluid-results {
+      justify-content: center;
+      padding-left: 200px;
+      padding-right: 200px;
+    }
+
+    .results-process{
+      display: flex;
+      justify-content: space-evenly;
+      padding-left: 100px;
+      padding-right: 100px;
+      font-family: 'Josefin Sans', sans-serif; 
+      font-weight: 800;
+      padding-bottom: 200px;
+    }
+
+    .resultscard{
+      padding-left: 20px;
+      padding-right: 20px;
+      width: 200px;
+    }
+
+    .resultsHeading{
+      font-family: 'Josefin Sans', sans-serif; 
+      color: #353737;
+      font-size: 30px;
+      text-align: center;
+      padding-bottom: 50px;
+      padding-top: 150px;
+    }
+
+    .results-text{
+      color: #353737;
+      font-family: 'Josefin Sans', sans-serif; 
+      font-size: 24px;
+      text-align: center;
+      padding-bottom: 40px;
+      font-weight: 800;
+    }
+
+    .results-title{
+      color: #E7A64E;
+      font-size: 24px;
+      text-align: center;
+      padding-bottom: 20px;
+    }
+
+    .resultscopy{
+      text-align: center;
+      list-style-type: none;
+      font-size: 22px;
+      font-weight: 650;
+    }
+
+ /* Site Mapping */
+
+ .site{
+  font-family: 'Josefin Sans', sans-serif; 
+  color: #353737;
+  font-weight: 800;
+  font-size: 30px;
+  text-align: center;
+  justify-content: center;
+}
+
+.sitecopy{
+  font-family: 'Josefin Sans', sans-serif; 
+  font-weight: 650;
+  color: #353737;
+  font-size: 24px;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+    /* wireframing */
+
+    .wire{
+      display: flex;
+      font-family: 'Josefin Sans', sans-serif; 
+      background-image: url(../images/wire.png);
+      background-size: contain;
+      background-position: right;
+      background-repeat: no-repeat;
+      color: #353737;
+      font-weight: 800;
+      text-align: left;
+      padding-bottom: 50px;
+      padding-top: 100px; 
+      grid-template-rows: 50% 50%;
+      height: 500px;
+    }
+
+    .wiretext{
+      width: 45%;
+      padding-left: 200px;
+    }
+    .wire-head{
+      font-size: 30px;
+      padding-bottom: 50px;
+      padding-top: 20px; 
+    }
+
+    .wirecopy{
+      font-size: 24px;
+      padding-bottom: 50px;
+    }
+
+ /* Style Guide */
+
+ .style{
+  padding-top: 100px;
+  font-family: 'Josefin Sans', sans-serif; 
+  color: #353737;
+  font-weight: 800;
+  font-size: 30px;
+  text-align: center;
+  justify-content: center;
+}
+
+.stylecopy{
+  padding-left: 200px;
+  padding-right: 200px;
+  font-family: 'Josefin Sans', sans-serif; 
+  font-weight: 650;
+  color: #353737;
+  font-size: 24px;
+  text-align: center;
+  padding-bottom: 150px;
+  padding-top: 50px;
+}
