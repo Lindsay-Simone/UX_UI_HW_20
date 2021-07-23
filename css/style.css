@@ -200,3 +200,131 @@
       padding-right: 200px;
       padding-bottom: 50px;
     }
+
+    .card-role{
+      display: flex;
+      justify-content: space-evenly;
+      padding-left: 100px;
+      padding-right: 100px;
+      font-family: 'Josefin Sans', sans-serif; 
+      font-weight: 800;
+      padding-bottom: 200px;
+    }
+
+     /* problem */
+
+     .problem{
+      font-family: 'Josefin Sans', sans-serif; 
+      color: #353737;
+      font-weight: 800;
+      font-size: 30px;
+      text-align: center;
+      padding-bottom: 50px;
+      padding-top: 150px; 
+    }
+  
+    .problem-copy{
+      font-family: 'Josefin Sans', sans-serif; 
+      color: #353737;
+      font-size: 24px;
+      font-weight: 650;
+      text-align: center;
+      padding-left: 200px;
+      padding-right: 200px;
+      padding-bottom: 50px;
+    }
+
+    /* persona */
+
+    .persona{
+      display: flex;
+      font-family: 'Josefin Sans', sans-serif; 
+      background-image: url(../images/persona.png);
+      background-size: contain;
+      background-position: right;
+      background-repeat: no-repeat;
+      color: #353737;
+      font-weight: 800;
+      text-align: left;
+      padding-bottom: 50px;
+      padding-top: 100px; 
+      grid-template-rows: 50% 50%;
+    }
+
+    .prototext{
+      width: 45%;
+      padding-left: 200px;
+    }
+    .persona-head{
+      font-size: 30px;
+      padding-bottom: 50px;
+      padding-top: 20px; 
+    }
+
+    .personacopy{
+      font-size: 24px;
+      padding-bottom: 50px;
+    }
+
+        /* evaluation */
+
+        .evaluation{
+          display: flex;
+          font-family: 'Josefin Sans', sans-serif; 
+          background-image: url(../images/evaluation.png);
+          background-size: contain;
+          background-position: left;
+          background-repeat: no-repeat;
+          color: #353737;
+          font-weight: 800;
+          text-align: left;
+          padding-bottom: 50px;
+          padding-top: 100px; 
+          grid-template-rows: 50% 50%;
+        }
+    
+        .evaluationtext{
+          padding-left: 55%;
+          padding-right: 200px;
+        }
+        .evaluation-head{
+          font-size: 30px;
+          padding-bottom: 50px; 
+        }
+    
+        .evaluationcopy{
+          font-size: 24px;
+        }
+
+        .evaluationcopy ul{
+          padding-top: 10px;
+          font-size: 24px;
+          text-align: left;
+          color: #E7A64E;
+          padding-left: 20px;
+        }
+
+        /* flow */
+
+    .flow{
+      font-family: 'Josefin Sans', sans-serif; 
+      color: #353737;
+      font-weight: 800;
+      font-size: 30px;
+      text-align: center;
+      padding-bottom: 50px;
+      padding-top: 150px; 
+      justify-content: center;
+    }
+  
+    .flowcopy{
+      font-family: 'Josefin Sans', sans-serif; 
+      font-weight: 650;
+      color: #353737;
+      font-size: 24px;
+      text-align: center;
+      padding-left: 200px;
+      padding-right: 200px;
+      padding-bottom: 50px;
+      padding-top: 50px;
+    }
