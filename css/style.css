@@ -4,7 +4,13 @@
     box-sizing: border-box;
   }
 
+
 /* Nav bar  */
+
+.entire-nav{
+  position: fixed;
+  width: 100%;
+}
 
   .navbar {
     font-family: 'Josefin Sans', sans-serif; 
@@ -12,24 +18,64 @@
     color: white;
     background-color: #E7A64E;
     text-shadow: black;
-    font-size: 30px;
-    word-spacing: 30px;
+    font-size: 24px;
     padding-left: 20px;
     padding-top: 20px;
+    width: 100%;
   }
 
   .nav-item{
       text-decoration: none;
       color: white;
+      padding-right: 30px;
       text-shadow: 2px 2px 5px black;
   }
 
+/* Project Nav bar  */
+
+.nav-menu{
+  background-color: #E7A64E;
+  padding: 20px 0;
+  width: 100%;
+}
+
+.nav-menu ul{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif; 
+  color: white;
+}
+
+.nav-menu ul li{
+  list-style: none;
+  margin: 0 20px;
+  display: inline;
+}
+
+.nav-menu ul li a{
+  font-size: 24px;
+  line-height: 1em;
+  display: inline-block;
+  font-weight: 800;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+
+.nav-menu ul li:hover a{
+  color: #E98600;
+  font-weight: 1000;
+}
+
 /* Jumbotron  */
+
 .jumbotron {
     background-image: url(../images/head.png);
     background-size: 100%;
     background-repeat: no-repeat;
     height: calc(100vh - 25px);
+    padding-top: 100px;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -52,7 +98,7 @@
 
   .birdhead{
     position: center;
-    height: 450px;
+    height: 385px;
   }
 
   .display-4{
@@ -72,22 +118,6 @@
     font-size: 18px;
 }
 
-/* Project Nav bar  */
-
-.navbar-project {
-    font-family: 'Josefin Sans', sans-serif; 
-    font-weight: 800;
-    background-color: none;
-    font-size: 20px;
-    padding-left: 20px;
-  }
-
-  .project-item{
-      text-decoration: none;
-      color: #E98600;
-      padding-right: 50px;
-  }
-
   /* What they do */
 
   .what{
@@ -103,12 +133,13 @@
   .whatcopy{
     font-family: 'Josefin Sans', sans-serif; 
     color: #353737;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 650;
     text-align: center;
     padding-left: 200px;
     padding-right: 200px;
     padding-bottom: 50px;
+    line-height: 1.2;
   }
 
     /* goal */
@@ -127,11 +158,12 @@
       font-family: 'Josefin Sans', sans-serif; 
       font-weight: 650;
       color: #353737;
-      font-size: 24px;
+      font-size: 20px;
       text-align: center;
       padding-left: 200px;
       padding-right: 200px;
       padding-bottom: 50px;
+      line-height: 1.2;
     }
 
      /* process */
@@ -166,16 +198,18 @@
 
     .card-title{
       color: #E98600;
-      font-size: 24px;
+      font-size: 20px;
       text-align: center;
       padding-bottom: 20px;
+      padding-top: 20px;
     }
 
-    ul{
+    .card-body ul{
       text-align: center;
       list-style-type: none;
-      font-size: 22px;
+      font-size: 20px;
       font-weight: 650;
+      line-height: 1.2;
     }
 
     /* role */
@@ -186,19 +220,20 @@
       font-weight: 800;
       font-size: 30px;
       text-align: center;
+      padding-top: 50px; 
       padding-bottom: 50px;
-      padding-top: 150px; 
     }
   
     .rolecopy{
       font-family: 'Josefin Sans', sans-serif; 
       color: #353737;
-      font-size: 24px;
+      font-size: 20px;
       font-weight: 650;
       text-align: center;
       padding-left: 200px;
       padding-right: 200px;
       padding-bottom: 50px;
+      line-height: 1.2;
     }
 
     .card-role{
@@ -208,7 +243,8 @@
       padding-right: 100px;
       font-family: 'Josefin Sans', sans-serif; 
       font-weight: 800;
-      padding-bottom: 200px;
+      padding-bottom: 100px;
+      line-height: 1.2;
     }
 
      /* problem */
@@ -226,12 +262,13 @@
     .problem-copy{
       font-family: 'Josefin Sans', sans-serif; 
       color: #353737;
-      font-size: 24px;
+      font-size: 20px;
       font-weight: 650;
       text-align: center;
       padding-left: 200px;
       padding-right: 200px;
       padding-bottom: 50px;
+      line-height: 1.2;
     }
 
     /* persona */
@@ -262,8 +299,9 @@
     }
 
     .personacopy{
-      font-size: 24px;
+      font-size: 20px;
       padding-bottom: 50px;
+      line-height: 1.2;
     }
 
         /* evaluation */
@@ -293,15 +331,17 @@
         }
     
         .evaluationcopy{
-          font-size: 24px;
+          font-size: 20px;
+          line-height: 1.2;
         }
 
         .evaluationcopy ul{
           padding-top: 10px;
-          font-size: 24px;
+          font-size: 20px;
           text-align: left;
           color: #E98600;
           padding-left: 20px;
+          line-height: 1.2;
         }
 
         /* flow */
@@ -321,12 +361,13 @@
       font-family: 'Josefin Sans', sans-serif; 
       font-weight: 650;
       color: #353737;
-      font-size: 24px;
+      font-size: 20px;
       text-align: center;
       padding-left: 200px;
       padding-right: 200px;
       padding-bottom: 50px;
       padding-top: 50px;
+      line-height: 1.2;
     }
 
      /* comp */
@@ -346,12 +387,13 @@
       font-family: 'Josefin Sans', sans-serif; 
       font-weight: 650;
       color: #353737;
-      font-size: 24px;
+      font-size: 20px;
       text-align: center;
       padding-left: 200px;
       padding-right: 200px;
       padding-bottom: 50px;
       padding-top: 50px;
+      line-height: 1.2;
     }
 
  /* story */
@@ -371,12 +413,13 @@
   font-family: 'Josefin Sans', sans-serif; 
   font-weight: 650;
   color: #353737;
-  font-size: 24px;
+  font-size: 20px;
   text-align: center;
   padding-left: 200px;
   padding-right: 200px;
   padding-bottom: 50px;
   padding-top: 50px;
+  line-height: 1.2;
 }
 
  /* Usability Testing */
@@ -399,12 +442,13 @@
   font-family: 'Josefin Sans', sans-serif; 
   font-weight: 650;
   color: #353737;
-  font-size: 24px;
+  font-size: 20px;
   text-align: center;
   padding-left: 200px;
   padding-right: 200px;
   padding-bottom: 50px;
   padding-top: 50px;
+  line-height: 1.2;
 }
 
 .testHeading{
@@ -430,8 +474,6 @@
     .results-process{
       display: flex;
       justify-content: space-evenly;
-      padding-left: 100px;
-      padding-right: 100px;
       font-family: 'Josefin Sans', sans-serif; 
       font-weight: 800;
       padding-bottom: 200px;
@@ -455,9 +497,10 @@
     .results-text{
       color: #353737;
       font-family: 'Josefin Sans', sans-serif; 
-      font-size: 24px;
+      font-size: 20px;
       text-align: center;
       padding-bottom: 40px;
+      line-height: 1.2;
       font-weight: 800;
     }
 
@@ -471,7 +514,8 @@
     .resultscopy{
       text-align: center;
       list-style-type: none;
-      font-size: 22px;
+      font-size: 20px;
+      line-height: 1.2;
       font-weight: 650;
     }
 
@@ -490,10 +534,11 @@
   font-family: 'Josefin Sans', sans-serif; 
   font-weight: 650;
   color: #353737;
-  font-size: 24px;
+  font-size: 20px;
   text-align: center;
   padding-bottom: 50px;
   padding-top: 50px;
+  line-height: 1.2;
 }
 
     /* wireframing */
@@ -525,8 +570,9 @@
     }
 
     .wirecopy{
-      font-size: 24px;
+      font-size: 20px;
       padding-bottom: 50px;
+      line-height: 1.2;
     }
 
  /* Style Guide */
@@ -547,10 +593,11 @@
   font-family: 'Josefin Sans', sans-serif; 
   font-weight: 650;
   color: #353737;
-  font-size: 24px;
+  font-size: 20px;
   text-align: center;
   padding-bottom: 150px;
   padding-top: 50px;
+  line-height: 1.2;
 }
 
  /* Iteration */
@@ -592,7 +639,8 @@ padding: 50px;
     .iterationcopy{
       text-align: center;
       list-style-type: none;
-      font-size: 22px;
+      font-size: 20px;
+      line-height: 1.2;
       font-weight: 650;
     }
 
@@ -617,10 +665,11 @@ padding: 50px;
   font-family: 'Josefin Sans', sans-serif; 
   font-weight: 650;
   color: #353737;
-  font-size: 24px;
+  font-size: 20px;
   text-align: center;
   padding-bottom: 100px;
   padding-top: 50px;
+  line-height: 1.2;
 }
 
 .finalimage{
@@ -652,13 +701,125 @@ padding: 50px;
   font-family: 'Josefin Sans', sans-serif; 
   font-weight: 650;
   color: #353737;
-  font-size: 24px;
+  font-size: 20px;
   text-align: center;
   padding-bottom: 150px;
   padding-top: 50px;
+  line-height: 1.2;
 }
 
-.thoughtscopy p{
-  padding-top: 20px;
-  padding-bottom: 20px;
+/* Footer Section */
+
+.hi{
+  color: white;
+  background-color: #172323;
+  width: 100%;
+  padding-top: 70px;
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 3px;
+  font-size: 24px;
+  height: 100px;
+}
+  
+.footersection{
+  background-color: #172323;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+  
+.footercontainer{
+  max-width: 100%;
+  padding: 50px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+}
+  
+.dasimages{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 50%;
+}
+    
+.foot1{
+  flex: 1;
+  padding: 50px;
+  margin: 3px;
+}
+  
+.foot1 h3{
+  color: white;
+  padding-top: 50px;
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 3px;
+  font-size: 18px;
+}
+  
+.foot2{
+  flex: 1;
+  padding: 50px;
+  margin: 3px;
+}
+  
+.foot2 h3{
+  color: white;
+  padding-top: 50px;
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 3px;
+  font-size: 18px;
+}
+  
+.foot3{
+  flex: 1;
+  padding: 50px;
+  margin: 3px;
+}
+  
+.foot3 h3{
+  color: white;
+  padding-top: 50px;
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 3px;
+  font-size: 18px;
+}
+  
+.foot4{
+  flex: 1;
+  padding: 50px;
+  margin: 3px;
+}
+  
+.foot4 h3{
+  color: white;
+  padding-top: 50px;
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 3px;
+  font-size: 18px;
+}
+  
+.copy{
+  color: white;
+  background-color: #172323;
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 3px;
+  font-size: 14px;
+  height: 20px;
+}
+  
+.footimages{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 50%;
 }
