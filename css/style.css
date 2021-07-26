@@ -1,9 +1,8 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 /* Nav bar  */
 
@@ -12,24 +11,24 @@
   width: 100%;
 }
 
-  .navbar {
-    font-family: 'Josefin Sans', sans-serif; 
-    font-weight: 800;
-    color: white;
-    background-color: #E7A64E;
-    text-shadow: black;
-    font-size: 24px;
-    padding-left: 20px;
-    padding-top: 20px;
-    width: 100%;
-  }
+.navbar {
+  font-family: 'Josefin Sans', sans-serif; 
+  font-weight: 800;
+  color: white;
+  background-color: #E7A64E;
+  text-shadow: black;
+  font-size: 24px;
+  padding-left: 20px;
+  padding-top: 20px;
+  width: 100%;
+}
 
-  .nav-item{
-      text-decoration: none;
-      color: white;
-      padding-right: 30px;
-      text-shadow: 2px 2px 5px black;
-  }
+.nav-item{
+  text-decoration: none;
+  color: white;
+  padding-right: 30px;
+  text-shadow: 2px 2px 5px black;
+}
 
 /* Project Nav bar  */
 
@@ -71,334 +70,337 @@
 /* Jumbotron  */
 
 .jumbotron {
-    background-image: url(../images/head.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: calc(100vh - 25px);
-    padding-top: 100px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-stretch: expanded;
-    font-family: 'Josefin Sans', sans-serif; 
-    height: 900px;
-  }
+  background-image: url(../images/head.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: calc(100vh - 25px);
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-stretch: expanded;
+  font-family: 'Josefin Sans', sans-serif; 
+  height: 900px;
+}
   
-  /* Jumbotron copy */
-  .jumboCopy {
-    padding-top: 50px;
-    background-position: center;
-    font-weight: 800;
-    width: 70%;
-    min-width: 500px;
-    max-width: 700px;
-    color: #353737;
-    text-align: center;
-  }
+/* Jumbotron copy */
 
-  .birdhead{
-    position: center;
-    height: 385px;
-  }
-
-  .display-4{
-      font-size: 50px;
-      padding-top: 40px;
-      padding-bottom: 30px;
-  }
-
-  .lead{
-      font-size: 24px;
-      padding-bottom: 40px;
-  }
-
-.btn{
-    font-family: 'Josefin Sans', sans-serif; 
-    color: #353737;
-    font-size: 18px;
+.jumboCopy {
+  padding-top: 50px;
+  background-position: center;
+  font-weight: 800;
+  width: 70%;
+  min-width: 500px;
+  max-width: 700px;
+  color: #353737;
+  text-align: center;
 }
 
-  /* What they do */
+.birdhead{
+  position: center;
+  height: 385px;
+}
 
-  .what{
-    font-family: 'Josefin Sans', sans-serif; 
-    color: #353737;
-    font-weight: 800;
-    font-size: 30px;
-    text-align: center;
-    padding-bottom: 50px;
-    padding-top: 150px; 
-  }
+.display-4{
+  font-size: 50px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
 
-  .whatcopy{
-    font-family: 'Josefin Sans', sans-serif; 
-    color: #353737;
-    font-size: 20px;
-    font-weight: 650;
-    text-align: center;
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-bottom: 50px;
-    line-height: 1.2;
-  }
+.lead{
+  font-size: 24px;
+  padding-bottom: 40px;
+}
 
-    /* goal */
+.btn{
+  font-family: 'Josefin Sans', sans-serif; 
+  color: #353737;
+  font-size: 18px;
+}
 
-    .goal{
-      font-family: 'Josefin Sans', sans-serif; 
-      color: #353737;
-      font-weight: 800;
-      font-size: 30px;
-      text-align: center;
-      padding-bottom: 50px;
-      padding-top: 150px; 
-    }
+/* What they do */
+
+.what{
+  font-family: 'Josefin Sans', sans-serif; 
+  color: #353737;
+  font-weight: 800;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 150px; 
+}
+
+.whatcopy{
+  font-family: 'Josefin Sans', sans-serif; 
+  color: #353737;
+  font-size: 20px;
+  font-weight: 650;
+  text-align: center;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 50px;
+  line-height: 1.2;
+}
+
+/* goal */
+
+.goal{
+  font-family: 'Josefin Sans', sans-serif; 
+  color: #353737;
+  font-weight: 800;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 150px; 
+}
   
-    .goalcopy{
-      font-family: 'Josefin Sans', sans-serif; 
-      font-weight: 650;
-      color: #353737;
-      font-size: 20px;
-      text-align: center;
-      padding-left: 200px;
-      padding-right: 200px;
-      padding-bottom: 50px;
-      line-height: 1.2;
-    }
+.goalcopy{
+  font-family: 'Josefin Sans', sans-serif; 
+  font-weight: 650;
+  color: #353737;
+  font-size: 20px;
+  text-align: center;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 50px;
+  line-height: 1.2;
+}
 
-     /* process */
+/* process */
 
-     /* Cards */
+/* Cards */
 
-    .container-fluid content {
-      justify-content: center;
-      padding-left: 100px;
-      padding-right: 100px;
-      padding-bottom: 50px;
-    }
+.container-fluid content {
+  justify-content: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+}
 
-    .row-process{
-      display: flex;
-      justify-content: space-evenly;
-      padding-left: 100px;
-      padding-right: 100px;
-      font-family: 'Josefin Sans', sans-serif; 
-      font-weight: 800;
-      padding-bottom: 200px;
-    }
+.row-process{
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-family: 'Josefin Sans', sans-serif; 
+  font-weight: 800;
+  padding-bottom: 200px;
+}
 
-    .sectionHeading{
-      font-family: 'Josefin Sans', sans-serif; 
-      color: #353737;
-      font-size: 30px;
-      text-align: center;
-      padding-bottom: 50px;
-      padding-top: 150px;
-    }
+.sectionHeading{
+  font-family: 'Josefin Sans', sans-serif; 
+  color: #353737;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 150px;
+}
 
-    .card-title{
-      color: #E98600;
-      font-size: 20px;
-      text-align: center;
-      padding-bottom: 20px;
-      padding-top: 20px;
-    }
+.card-title{
+  color: #E98600;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
 
-    .card-body ul{
-      text-align: center;
-      list-style-type: none;
-      font-size: 20px;
-      font-weight: 650;
-      line-height: 1.2;
-    }
+.card-body ul{
+  text-align: center;
+  list-style-type: none;
+  font-size: 20px;
+  font-weight: 650;
+  line-height: 1.2;
+}
 
-    /* role */
+/* role */
 
-    .role{
-      font-family: 'Josefin Sans', sans-serif; 
-      color: #353737;
-      font-weight: 800;
-      font-size: 30px;
-      text-align: center;
-      padding-top: 50px; 
-      padding-bottom: 50px;
-    }
+.role{
+  font-family: 'Josefin Sans', sans-serif; 
+  color: #353737;
+  font-weight: 800;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 50px; 
+  padding-bottom: 50px;
+}
   
-    .rolecopy{
-      font-family: 'Josefin Sans', sans-serif; 
-      color: #353737;
-      font-size: 20px;
-      font-weight: 650;
-      text-align: center;
-      padding-left: 200px;
-      padding-right: 200px;
-      padding-bottom: 50px;
-      line-height: 1.2;
-    }
+.rolecopy{
+  font-family: 'Josefin Sans', sans-serif; 
+  color: #353737;
+  font-size: 20px;
+  font-weight: 650;
+  text-align: center;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 50px;
+  line-height: 1.2;
+}
 
-    .card-role{
-      display: flex;
-      justify-content: space-evenly;
-      padding-left: 100px;
-      padding-right: 100px;
-      font-family: 'Josefin Sans', sans-serif; 
-      font-weight: 800;
-      padding-bottom: 100px;
-      line-height: 1.2;
-    }
+.card-role{
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-family: 'Josefin Sans', sans-serif; 
+  font-weight: 800;
+  padding-bottom: 100px;
+  line-height: 1.2;
+}
 
-     /* problem */
+/* problem */
 
-     .problem{
-      font-family: 'Josefin Sans', sans-serif; 
-      color: #353737;
-      font-weight: 800;
-      font-size: 30px;
-      text-align: center;
-      padding-bottom: 50px;
-      padding-top: 150px; 
-    }
+.problem{
+  font-family: 'Josefin Sans', sans-serif; 
+  color: #353737;
+  font-weight: 800;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 150px; 
+}
   
-    .problem-copy{
-      font-family: 'Josefin Sans', sans-serif; 
-      color: #353737;
-      font-size: 20px;
-      font-weight: 650;
-      text-align: center;
-      padding-left: 200px;
-      padding-right: 200px;
-      padding-bottom: 50px;
-      line-height: 1.2;
-    }
+.problem-copy{
+  font-family: 'Josefin Sans', sans-serif; 
+  color: #353737;
+  font-size: 20px;
+  font-weight: 650;
+  text-align: center;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 50px;
+  line-height: 1.2;
+}
 
-    /* persona */
+/* persona */
 
-    .persona{
-      display: flex;
-      font-family: 'Josefin Sans', sans-serif; 
-      background-image: url(../images/persona.png);
-      background-size: contain;
-      background-position: right;
-      background-repeat: no-repeat;
-      color: #353737;
-      font-weight: 800;
-      text-align: left;
-      padding-bottom: 50px;
-      padding-top: 100px; 
-      grid-template-rows: 50% 50%;
-    }
+.persona{
+  display: flex;
+  font-family: 'Josefin Sans', sans-serif; 
+  background-image: url(../images/persona.png);
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  color: #353737;
+  font-weight: 800;
+  text-align: left;
+  padding-bottom: 50px;
+  padding-top: 100px; 
+  grid-template-rows: 50% 50%;
+}
 
-    .prototext{
-      width: 45%;
-      padding-left: 200px;
-    }
-    .persona-head{
-      font-size: 30px;
-      padding-bottom: 50px;
-      padding-top: 20px; 
-    }
+.prototext{
+  width: 45%;
+  padding-left: 200px;
+}
 
-    .personacopy{
-      font-size: 20px;
-      padding-bottom: 50px;
-      line-height: 1.2;
-    }
+.persona-head{
+  font-size: 30px;
+  padding-bottom: 50px;
+  padding-top: 20px; 
+}
 
-        /* evaluation */
+.personacopy{
+  font-size: 20px;
+  padding-bottom: 50px;
+  line-height: 1.2;
+}
 
-        .evaluation{
-          display: flex;
-          font-family: 'Josefin Sans', sans-serif; 
-          background-image: url(../images/evaluation.png);
-          background-size: contain;
-          background-position: left;
-          background-repeat: no-repeat;
-          color: #353737;
-          font-weight: 800;
-          text-align: left;
-          padding-bottom: 50px;
-          padding-top: 100px; 
-          grid-template-rows: 50% 50%;
-        }
+/* evaluation */
+
+.evaluation{
+  display: flex;
+  font-family: 'Josefin Sans', sans-serif; 
+  background-image: url(../images/evaluation.png);
+  background-size: contain;
+  background-position: left;
+  background-repeat: no-repeat;
+  color: #353737;
+  font-weight: 800;
+  text-align: left;
+  padding-bottom: 50px;
+  padding-top: 100px; 
+  grid-template-rows: 50% 50%;
+}
     
-        .evaluationtext{
-          padding-left: 55%;
-          padding-right: 200px;
-        }
-        .evaluation-head{
-          font-size: 30px;
-          padding-bottom: 50px; 
-        }
+.evaluationtext{
+  padding-left: 55%;
+  padding-right: 200px;
+}
+
+.evaluation-head{
+  font-size: 30px;
+  padding-bottom: 50px; 
+}
     
-        .evaluationcopy{
-          font-size: 20px;
-          line-height: 1.2;
-        }
+.evaluationcopy{
+  font-size: 20px;
+  line-height: 1.2;
+}
 
-        .evaluationcopy ul{
-          padding-top: 10px;
-          font-size: 20px;
-          text-align: left;
-          color: #E98600;
-          padding-left: 20px;
-          line-height: 1.2;
-        }
+.evaluationcopy ul{
+  padding-top: 10px;
+  font-size: 20px;
+  text-align: left;
+  color: #E98600;
+  padding-left: 20px;
+  line-height: 1.2;
+}
 
-        /* flow */
+/* flow */
 
-    .flow{
-      font-family: 'Josefin Sans', sans-serif; 
-      color: #353737;
-      font-weight: 800;
-      font-size: 30px;
-      text-align: center;
-      padding-bottom: 50px;
-      padding-top: 150px; 
-      justify-content: center;
-    }
+.flow{
+  font-family: 'Josefin Sans', sans-serif; 
+  color: #353737;
+  font-weight: 800;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 150px; 
+  justify-content: center;
+}
   
-    .flowcopy{
-      font-family: 'Josefin Sans', sans-serif; 
-      font-weight: 650;
-      color: #353737;
-      font-size: 20px;
-      text-align: center;
-      padding-left: 200px;
-      padding-right: 200px;
-      padding-bottom: 50px;
-      padding-top: 50px;
-      line-height: 1.2;
-    }
+.flowcopy{
+  font-family: 'Josefin Sans', sans-serif; 
+  font-weight: 650;
+  color: #353737;
+  font-size: 20px;
+  text-align: center;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  line-height: 1.2;
+}
 
-     /* comp */
+/* comp */
 
-     .comp{
-      font-family: 'Josefin Sans', sans-serif; 
-      color: #353737;
-      font-weight: 800;
-      font-size: 30px;
-      text-align: center;
-      padding-bottom: 50px;
-      padding-top: 150px; 
-      justify-content: center;
-    }
+.comp{
+  font-family: 'Josefin Sans', sans-serif; 
+  color: #353737;
+  font-weight: 800;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 150px; 
+  justify-content: center;
+}
   
-    .compcopy{
-      font-family: 'Josefin Sans', sans-serif; 
-      font-weight: 650;
-      color: #353737;
-      font-size: 20px;
-      text-align: center;
-      padding-left: 200px;
-      padding-right: 200px;
-      padding-bottom: 50px;
-      padding-top: 50px;
-      line-height: 1.2;
-    }
+.compcopy{
+  font-family: 'Josefin Sans', sans-serif; 
+  font-weight: 650;
+  color: #353737;
+  font-size: 20px;
+  text-align: center;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  line-height: 1.2;
+}
 
- /* story */
+/* story */
 
- .story{
+.story{
   font-family: 'Josefin Sans', sans-serif; 
   color: #353737;
   font-weight: 800;
@@ -422,7 +424,7 @@
   line-height: 1.2;
 }
 
- /* Usability Testing */
+/* Usability Testing */
 
 .container-fluid-testing {
   justify-content: center;
@@ -461,67 +463,67 @@
   justify-content: center;
 }
 
- /* usability results */
+/* usability results */
 
-     /* Cards */
+/* Cards */
 
-     .container-fluid-results {
-      justify-content: center;
-      padding-left: 200px;
-      padding-right: 200px;
-    }
+.container-fluid-results {
+  justify-content: center;
+  padding-left: 200px;
+  padding-right: 200px;
+}
 
-    .results-process{
-      display: flex;
-      justify-content: space-evenly;
-      font-family: 'Josefin Sans', sans-serif; 
-      font-weight: 800;
-      padding-bottom: 200px;
-    }
+.results-process{
+  display: flex;
+  justify-content: space-evenly;
+  font-family: 'Josefin Sans', sans-serif; 
+  font-weight: 800;
+  padding-bottom: 200px;
+}
 
-    .resultscard{
-      padding-left: 20px;
-      padding-right: 20px;
-      width: 200px;
-    }
+.resultscard{
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 200px;
+}
 
-    .resultsHeading{
-      font-family: 'Josefin Sans', sans-serif; 
-      color: #353737;
-      font-size: 30px;
-      text-align: center;
-      padding-bottom: 50px;
-      padding-top: 150px;
-    }
+.resultsHeading{
+  font-family: 'Josefin Sans', sans-serif; 
+  color: #353737;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 150px;
+}
 
-    .results-text{
-      color: #353737;
-      font-family: 'Josefin Sans', sans-serif; 
-      font-size: 20px;
-      text-align: center;
-      padding-bottom: 40px;
-      line-height: 1.2;
-      font-weight: 800;
-    }
+.results-text{
+  color: #353737;
+  font-family: 'Josefin Sans', sans-serif; 
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 40px;
+  line-height: 1.2;
+  font-weight: 800;
+}
 
-    .results-title{
-      color: #E98600;
-      font-size: 24px;
-      text-align: center;
-      padding-bottom: 20px;
-    }
+.results-title{
+  color: #E98600;
+  font-size: 24px;
+  text-align: center;
+  padding-bottom: 20px;
+}
 
-    .resultscopy{
-      text-align: center;
-      list-style-type: none;
-      font-size: 20px;
-      line-height: 1.2;
-      font-weight: 650;
-    }
+.resultscopy{
+  text-align: center;
+  list-style-type: none;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 650;
+}
 
  /* Site Mapping */
 
- .site{
+.site{
   font-family: 'Josefin Sans', sans-serif; 
   color: #353737;
   font-weight: 800;
@@ -541,43 +543,44 @@
   line-height: 1.2;
 }
 
-    /* wireframing */
+/* wireframing */
 
-    .wire{
-      display: flex;
-      font-family: 'Josefin Sans', sans-serif; 
-      background-image: url(../images/wire.png);
-      background-size: contain;
-      background-position: right;
-      background-repeat: no-repeat;
-      color: #353737;
-      font-weight: 800;
-      text-align: left;
-      padding-bottom: 50px;
-      padding-top: 100px; 
-      grid-template-rows: 50% 50%;
-      height: 500px;
-    }
+.wire{
+  display: flex;
+  font-family: 'Josefin Sans', sans-serif; 
+  background-image: url(../images/wire.png);
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  color: #353737;
+  font-weight: 800;
+  text-align: left;
+  padding-bottom: 50px;
+padding-top: 100px; 
+  grid-template-rows: 50% 50%;
+  height: 500px;
+}
 
-    .wiretext{
-      width: 45%;
-      padding-left: 200px;
-    }
-    .wire-head{
-      font-size: 30px;
-      padding-bottom: 50px;
-      padding-top: 20px; 
-    }
+.wiretext{
+  width: 45%;
+  padding-left: 200px;
+}
 
-    .wirecopy{
-      font-size: 20px;
-      padding-bottom: 50px;
-      line-height: 1.2;
-    }
+.wire-head{
+  font-size: 30px;
+  padding-bottom: 50px;
+  padding-top: 20px; 
+}
+
+.wirecopy{
+  font-size: 20px;
+  padding-bottom: 50px;
+  line-height: 1.2;
+}
 
  /* Style Guide */
 
- .style{
+.style{
   padding-top: 100px;
   font-family: 'Josefin Sans', sans-serif; 
   color: #353737;
@@ -602,7 +605,7 @@
 
  /* Iteration */
 
- .iteration{
+.iteration{
   padding-top: 100px;
   font-family: 'Josefin Sans', sans-serif; 
   color: #353737;
@@ -614,39 +617,39 @@
 }
 
 .iteration p{
-padding: 50px;
+  padding: 50px;
 }
 
-     /* Cards */
+/* Cards */
 
-    .iteration-process{
-      display: flex;
-      justify-content: space-evenly;
-      padding-left: 100px;
-      padding-right: 100px;
-      font-family: 'Josefin Sans', sans-serif; 
-      font-weight: 800;
-      padding-bottom: 200px;
-    }
+.iteration-process{
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-family: 'Josefin Sans', sans-serif; 
+  font-weight: 800;
+  padding-bottom: 200px;
+}
 
-    .iterationcard{
-      padding-top: 50px;
-      padding-left: 20px;
-      padding-right: 20px;
-      width: 250px;
-    }
+.iterationcard{
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 250px;
+}
 
-    .iterationcopy{
-      text-align: center;
-      list-style-type: none;
-      font-size: 20px;
-      line-height: 1.2;
-      font-weight: 650;
-    }
+.iterationcopy{
+  text-align: center;
+  list-style-type: none;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 650;
+}
 
  /* Final */
 
- .final{
+.final{
   padding-top: 50px;
   font-family: 'Josefin Sans', sans-serif; 
   color: #353737;
@@ -685,7 +688,7 @@ padding: 50px;
 
  /* Final Thoughts  */
 
- .thoughts{
+.thoughts{
   padding-top: 100px;
   font-family: 'Josefin Sans', sans-serif; 
   color: #353737;
@@ -823,3 +826,5 @@ padding: 50px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 50%;
 }
+
+
